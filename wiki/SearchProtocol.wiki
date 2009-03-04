@@ -1,0 +1,19 @@
+#summary Protocol for searching
+#labels Phase-Requirements,Phase-Implementation
+
+= Introduction =
+
+The announce part is where the client (phone) searches for users on the server.
+
+= Details =
+
+HTTP request
+
+Example:
+http://server/announce?x=123123&y=123123&number=81695606&range=300
+x: longitude posision in world coordinate (GPS position) of user searching
+y: latitude posision in world coordinate (GPS position) of user searching
+number: phone number (ID) of user searching
+range: find all friends in this range from my position
+
+.... add more!
