@@ -15,9 +15,9 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author p62287946
  */
-public class BuddyTracker extends HttpServlet {
+public class ErrandBarter extends HttpServlet {
 
-    public BuddyTracker() {
+    public ErrandBarter() {
     }
 
     /** 

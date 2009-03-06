@@ -11,6 +11,6 @@ response.setHeader("Expires", "Sat, 26 Jul 1997 05:00:00 GMT");
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
 <% 
-pageContext.forward("buddytracker");
+pageContext.forward("errandbarter");
 //response.addHeader("Location:", arg1)
 %>
